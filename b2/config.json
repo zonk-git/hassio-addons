@@ -29,7 +29,7 @@
   "schema": {
     "log_level": "list(info|debug)",
     "applicationKeyId": "str",
-    "applicationKey": "str",
+    "applicationKey": "password",
     "bucket": "str",
     "keep_days": "int?",
     "allowEmptySource": "bool?"
