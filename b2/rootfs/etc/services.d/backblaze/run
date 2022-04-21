@@ -16,6 +16,6 @@ if [[ $(bashio::config 'log_level') != 'debug' ]]; then
   options+=(--noProgress)
 fi
 
-options +=(--compareThreshold 60000)
+options+=(--compareThreshold 60000)
 
 b2 sync "${options[@]}" /backup "b2://$BUCKET"
