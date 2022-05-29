@@ -18,4 +18,4 @@ RUN set -x \
  && rm -f /ngrok.zip
 
 # Initialize ngrok
-RUN  ngrok --version
+RUN  ngrok --version -v /run
