@@ -1,10 +1,10 @@
 {
   "name": "ngrok Client",
-  "version": "2.1.7c",
+  "version": "2.1.7d",
   "slug": "ngrok",
   "description": "A ngrok client for Hass.io",
   "webui": "http://[HOST]:[PORT:4040]",
-  "url": "https://github.com/dy1io/hassio-addons",
+  "url": "https://github.com/zonk-git/hassio-addons",
   "stage": "deprecated",
   "init": "false",
   "arch": [
